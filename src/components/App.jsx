@@ -1,6 +1,8 @@
 import React from 'react';
+import {Routes, Route} from "react-router-dom";
 
 import Home from './Home';
+import Aboute from './Aboute';
 
 export const App = () => {
   return (
@@ -14,7 +16,11 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      <Home/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/aboute' element={<Aboute/>}/>
+      </Routes>
+      
     </div>
   );
 };
