@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/example-new-template/static/css/main.7acaea2f.css",
+    "main.js": "/example-new-template/static/js/main.07d3183d.js",
+    "index.html": "/example-new-template/index.html",
+    "main.7acaea2f.css.map": "/example-new-template/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/example-new-template/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
